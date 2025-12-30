@@ -1,0 +1,36 @@
+📄 About Me
+
+This portfolio highlights my practical experience with DevOps tools such as Docker, Jenkins, GitHub, and CI/CD pipelines.
+
+## 📌 **Requirements (Based on Repo + Best Practices)**
+
+To successfully build and deploy this project:
+
+### Local / CI Requirements
+✔ Git & GitHub repository  
+✔ Jenkins installed with:
+- Docker plugin
+- Git plugin
+- Pipeline plugin
+
+✔ Docker installed on Jenkins agent  
+✔ Port available for container deployment (e.g., 8080)
+
+---
+
+### Deployment Requirements
+✔ Docker host (EC2 or VM) or container platform  
+✔ Optional: AWS / Cloud provider credentials  
+✔ Optional: Docker Registry for image storage
+
+---
+
+### Optional Enhancements
+⭐ HTTPS support using Let’s Encrypt  
+⭐ Hosted on AWS EC2 behind ALB  
+⭐ Add automated tests in pipeline
+
+---
+
+## 📌 **Visual Architecture Diagram**
+
