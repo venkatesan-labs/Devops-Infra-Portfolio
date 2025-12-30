@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         dockerImage = 'my-devops-portfolio:latest'
-        registryUrl = 'ghcr.io/kodecloud95/'
+        registryUrl = 'ghcr.io/venkatesan-labs/'
         
     }
     stages {
