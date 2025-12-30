@@ -29,7 +29,7 @@ atesanpipeline {
                 script {
                     // Deployment logic goes here
                     echo "Deploying ${dockerImage} to the environment"
-                    docker run -d -p 8080:80 --name my-running-app ${registryUrl}/my-devops-portfolio:latest
+                    docker run -d -p 8085:80 --name my-running-app ${registryUrl}/my-devops-portfolio:latest
                 }
             }
         }
