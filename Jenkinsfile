@@ -29,6 +29,7 @@ pipeline {
                 script {
                     // Deployment logic goes here
                     echo "Deploying ${dockerImage} to the environment"
+                    docker run -d -p 8080:80 --name my-running-app ghcr.io/kodecloud95/my-devops-portfolio:latest
                 }
             }
         }
