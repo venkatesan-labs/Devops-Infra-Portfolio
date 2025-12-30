@@ -1,4 +1,4 @@
-pipeline {
+atesanpipeline {
     agent any
     environment {
         dockerImage = 'my-devops-portfolio:latest'
@@ -29,7 +29,7 @@ pipeline {
                 script {
                     // Deployment logic goes here
                     echo "Deploying ${dockerImage} to the environment"
-                    docker run -d -p 8080:80 --name my-running-app ghcr.io/kodecloud95/my-devops-portfolio:latest
+                    docker run -d -p 8080:80 --name my-running-app ${registryUrl}/my-devops-portfolio:latest
                 }
             }
         }
